@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    background-image: url('https://img.freepik.com/free-photo/full-shot-travel-concept-with-landmarks_23-2149153258.jpg?t=st=1710435545~exp=1710439145~hmac=54a701115db8dba3c6d6a035bce59d9039c1a00b02976197d7a7033d93fbd249&w=826');
+    background-size: cover;
+    height: 100vh;
+    max-width: 2000px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.gogaga-logo {
+    width: 300px;
+
+}
+
+.nav-bar {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact {
+    padding: 25px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-para {
+    font-size: 30px;
+    justify-content: center;
+    color: blue;
+    margin-right: 30px;
+}
+
+.header-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.header-styling {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header-description {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 60px;
+    width: 50%;
+}
+
+.special-para {
+    font-family: "Sofia", Sans-Serif;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.header-description-head {
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    text-align: start;
+}
+
+.header-description-para {
+    font-size: 20px;
+    color: white;
+    font-family: "Trirong", sans-serif;
+}
+
+.description-head-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.description-head {
+    font-family: "Audiowide", sans-serif;
+    color: grey;
+    font-size: 26px;
+}
+
+.description-para {
+    font-family: "Trirong", sans-serif;
+    font-size: 20px;
+}
+
+.body-description {
+    padding: 30px;
+}
+
+.image {
+    border-radius: 25px;
+    height: 40vh;
+    margin: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: "Roboto";
+    color: white;
+}
+
+.domestic {
+    background-image: url('https://vl-prod-static.b-cdn.net/system/images/000/434/348/daf4e1a5877d871b31c1636af6771a23/original/White_Rann_travelocat.jpg?1613031582');
+    background-size: cover;
+    width: 49%;
+}
+
+.weekendtrips {
+    background-image: url('https://vl-prod-static.b-cdn.net/system/images/000/434/702/6e05a4bf4412c445ac219b3e52625eab/original/travelocat_leh_ladakh_trip.jpg?1597432473');
+    background-size: cover;
+    width: 24%;
+}
+
+.europe {
+    background-image: url('https://vl-prod-static.b-cdn.net/system/images/000/434/412/99d9abe7dc30252af5be96983eb37a21/960gt/travelocat_europe.jpg?1644994619');
+    background-size: cover;
+    width: 24%;
+}
+
+.asia {
+    background-image: url('https://vl-prod-static.b-cdn.net/system/images/000/434/918/37012d97a2ef4a389010299aa6f7d58d/x300gt/Asia_holiday_travelocat.jpg?1598024162');
+    background-size: cover;
+    width: 24%;
+}
+
+.honeymoon {
+    background-image: url('https://vl-prod-static.b-cdn.net/system/images/000/434/703/8171f89f2a35f911a625e2fd86f014f4/x300gt/TravelOcat_honeymoon_trips.jpg?1613030558');
+    background-size: cover;
+    width: 74%;
+}
+
+.image-head {
+    font-size: 36px;
+}
+
+.image-para {
+    font-size: 26px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+@media (max-width:768px) {
+
+    .container {
+        background-image: url('https://img.freepik.com/free-photo/full-shot-woman-travel-concept_23-2149153259.jpg?t=st=1710437184~exp=1710440784~hmac=6e41bc43001c9918d8eb354a373fe79bcd977f708d7affe5f78ab934bfd747a3&w=360');
+        
+    }
+
+    .contact-para {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    .contact {
+        padding: 10px;
+        justify-content: flex-end;
+    }
+
+    .gogaga-logo {
+        width: 100px;
+    }
+
+    .header-container {
+        font-size: 10px;
+    }
+
+    .header-styling {
+        font-size: 20px;
+    }
+
+    .header-description {
+        align-items: center;
+        margin-left: 0px;
+        width: 100%;
+
+    }
+
+    .header-description-head {
+        text-align: center;
+    }
+
+    .description-head {
+        font-size: 18px;
+    }
+
+    .description-para {
+        font-size: 18px;
+    }
+
+    .domestic {
+        width: 100%;
+    }
+
+    .weekendtrips {
+        width: 100%;
+    }
+
+    .europe {
+        width: 100%;
+    }
+
+    .asia {
+        width: 100%;
+    }
+
+    .honeymoon {
+        width: 100%;
+    }
+
+    .image-head {
+        font-size: 26px;
+    }
+
+    .image-para {
+        font-size: 18px;
+    }
+    
+    
+}
